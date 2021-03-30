@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="video.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link rel = "stylesheet" href = "Recommendations.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="logo3.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex justify-content-end w-100">
+                        <li class="nav-item nav-spacing">
+                            <a class="nav-link" href="quiz.html">Regimen Quiz</a>
+                        </li>
+                        <li class="nav-item nav-spacing">
+                            <a class="nav-link" href="my_current_producuts.html">My Current Products</a>
+                        </li>
+                        <!-- <li class="nav-item nav-spacing">
+                            <a class="nav-link" href="around.html">All Around Great Products</a>
+                        </li>                             -->
+                        <li class="dropdown nav-item nav-spacing">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Skin Concerns
+                            </a>                                
+                                <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="dryness.html">Dryness</a></li>
+                                    <li><a class="dropdown-item" href="hydration.html">Hydration</a></li>
+                                    <li><a class="dropdown-item" href="acne.html">Acne</a></li>
+                                    <li><a class="dropdown-item" href="dullness.html">Dullness</a></li>
+                                    <li><a class="dropdown-item" href="wrinkles.html">Wrinkles/Fine Lines</a></li>
+                                    <li><a class="dropdown-item" href="sunprotection.html">Sun Protection</a></li>
+                                    <li><a class="dropdown-item" href="redness.html">Redness</a></li>
+                                    <li><a class="dropdown-item" href="texture.html">Texture</a></li>
+                                    
+                                    </ul>
+                            <!-- <a href="#">Dryness</a>
+                            <a href="#">Wrinkles/Fine Lines</a>
+                            <a href="#">Dullness</a>
+                            <a href="#">Acne</a>
+                            <a href="#">Sun Protection</a>
+                            <a href="#">Texture</a>
+                            <a href="#">Redness</a> -->
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <!-- <div class="hero my-container" id="homeimage">
+                <img src="pomagranates.jpg" alt="">
+                <a class="title-wrapper d-block" href="#"> 
+                    <h1 class="sun"><span>Discover Your Regimen</span></h1>
+                </a>
+            </div> -->
+
+            <a href="quiz.html" class="d-flex justify-content-around flex-column jumbotron jumbotron-fluid">
+
+                <video autoplay playsinline muted loop>    
+                    <source id="video-source" src="" data-src="peonies-loop.mp4" type="video/mp4">
+                </video>
+                
+                  <div class="container">
+                
+                    <h1 class="display-vid text-center">Discover Your Regimen</h1>
+                
+                  </div>
+                  <!-- /.container -->
+                </a>
+                <!-- /.jumbotron -->
+
+            <main>
+                <div class="homerecs">
+                    <h2 class="custom-h2">Recommendations By Concern</h2>
+                    <div class="rec-box">
+                        <a class="d-block" href="dryness.html">
+                            <img src="dryness-square.jpg" alt="">
+                            <div class="box-text">
+                                <h4 class="regularhead"><span>Dryness</span></h4>
+                            </div>
+                        </a>
+                        <a class="d-block" href="hydration.html">
+                            <img src="hydrate-square.jpg">
+                            <div class="box-text">
+                                <h4 class="regularhead"><span>Hydration</span></h4>
+                            </div>
+                        </a>
+                        <a class="d-block" href="acne.html">
+                            <img src="acne-square.jpg">
+                            <div class="box-text">
+                                <h4 class="regularhead"><span>Acne</span></h4>
+                            </div>
+                        </a>
+                        <a class="d-block" href="dullness.html">
+                            <img src="dullness-square.jpg">
+                            <div class="box-text">
+                                <h4 class="regularhead"><span>Dullness</span></h4>
+                            </div>
+                        </a>
+                        <a class="d-block" href="wrinkles.html">
+                            <img src="wrinkles-square.jpg">
+                            <div class="box-text">
+                                <h4 class="regularhead" id="wrinklehead"><span>Wrinkles / <br>Fine Lines</span></h4>
+                            </div>
+                        </a>
+                        <a class="d-block" href="sunprotection.html">
+                            <img src="sunprotection-square.jpg">
+                            <div class="box-text">
+                                <h4 class="regularhead" id="wrinklehead"><span>Sun <br> Protection</span></h4>
+                            </div>
+                        </a>
+                        <a class="d-block" href="redness.html">
+                            <img src="redness-square.jpg">
+                            <div class="box-text">
+                                <h4 class="regularhead"><span>Redness</span></h4>
+                            </div>
+                        </a>
+                        <a class="d-block" href="texture.html">
+                            <img src="texture-square.jpg">
+                            <div class="box-text">
+                                <h4 class="regularhead"><span>Texture</span></h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="homeglossary">
+                    <h2><a href="#">All Recommendations</a></h2>
+                </div>
+            </main>
+            
+
+
+            <footer>
+                <div class="glossary"><a href="#">Glossary</a></div>
+                <p>Copyright &copy; 2021 Jonah's Recommendations<br><a href="mailto:jonah@jonahsrecommendations.com">jonah@JonahsRecommendations.com</a></p>
+            </footer>
+        </div>
+    </body>
+</html>

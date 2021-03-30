@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="quiz.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+        <link rel = "stylesheet" href = "Recommendations.css">
+        <title>Home</title>
+    </head>
+    <body>
+        <!-- <div class="page-container"> -->
+        <div id="wrapper">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="logo3.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav d-flex justify-content-end w-100">
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" href="quiz.html">Regimen Quiz</a>
+                    </li>
+                    <li class="nav-item nav-spacing">
+                        <a class="nav-link" href="my_current_producuts.html">My Current Products</a>
+                    </li>
+                    <!-- <li class="nav-item nav-spacing">
+                        <a class="nav-link" href="around.html">All Around Great Products</a>
+                    </li>                             -->
+                    <li class="dropdown nav-item nav-spacing">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Skin Concerns
+                        </a>                                
+                            <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="dryness.html">Dryness</a></li>
+                                <li><a class="dropdown-item" href="hydration.html">Hydration</a></li>
+                                <li><a class="dropdown-item" href="acne.html">Acne</a></li>
+                                <li><a class="dropdown-item" href="dullness.html">Dullness</a></li>
+                                <li><a class="dropdown-item" href="wrinkles.html">Wrinkles/Fine Lines</a></li>
+                                <li><a class="dropdown-item" href="sunprotection.html">Sun Protection</a></li>
+                                <li><a class="dropdown-item" href="redness.html">Redness</a></li>
+                                <li><a class="dropdown-item" href="texture.html">Texture</a></li>
+                                
+                                </ul>
+                        <!-- <a href="#">Dryness</a>
+                        <a href="#">Wrinkles/Fine Lines</a>
+                        <a href="#">Dullness</a>
+                        <a href="#">Acne</a>
+                        <a href="#">Sun Protection</a>
+                        <a href="#">Texture</a>
+                        <a href="#">Redness</a> -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+            
+            <div class="hero" id="homeimage">
+                <img src="pomagranates.jpg" alt="Pomegranates">
+                <a class="title-wrapper" href="quiz.html"> 
+                    <h1 class="regularhead" id="quiz-head">Regimen Quiz</h1>
+                </a>
+            </div>
+
+            <main>
+                <form class="quiz-form text-white-shadow mb-5 mt-5" id="quiz-form">
+                    <fieldset class="form-group d-none" id="question1">
+                        <legend><h2>What is your primary skin concern?</h2></legend>
+                        <div class="radio-choices radio-col-2 radio-col-4">
+                            <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question1" id="dryness" value="1">
+                                <label class="form-check-label" for="dryness">Dryness</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question1" id="dullness" value="2">
+                                <label class="form-check-label" for="dullness">Dullness</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question1" id="hydration" value="3">
+                                <label class="form-check-label" for="hydration">Hydration</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question1" id="wrinkles" value="4">
+                                <label class="form-check-label" for="wrinkles">Wrinkles/Fine Lines</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question1" id="acne" value="5">
+                                <label class="form-check-label" for="acne">Acne</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question1" id="sun-protection" value="6">
+                                <label class="form-check-label" for="sun-protection">Sun Protection</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question1" id="texture" value="7">
+                                <label class="form-check-label" for="texture">Texture</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question1" id="redness" value="8">
+                                <label class="form-check-label" for="redness">Redness</label>
+                              </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group d-none" id="question2">
+                        <legend><h2>What is your skin type?</h2></legend>
+                        <div class="radio-choices radio-col-3">
+                            <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question2" id="dry" value="1">
+                                <label class="form-check-label" for="dry">Dry</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question2" id="combo" value="2">
+                                <label class="form-check-label" for="combo">Combo</label>
+                              </div>
+                              <div class="form-check">
+                                <input required class="form-check-input" type="radio" name="question2" id="oily" value="3">
+                                <label class="form-check-label" for="oily">Oily</label>
+                              </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group d-none" id="question3">
+                        <legend><h2>What is your skin's sensitivity level?</h2></legend>
+                        <div class="radio-choices radio-col-2">
+                        <div class="form-check">
+                            <input required class="form-check-input" type="radio" name="question3" id="sensitive" value="1">
+                            <label class="form-check-label" for="sensitive">Sensitive</label>
+                          </div>
+                          <div class="form-check">
+                            <input required class="form-check-input" type="radio" name="question3" id="not-sensitive" value="2">
+                            <label class="form-check-label" for="not-sensitive">Not Sensitive</label>
+                          </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group d-none" id="question4">
+                        <legend><h2>What is your budget?</h2></legend>
+                        <div class="radio-choices radio-col-3">
+                        <div class="form-check">
+                            <input required class="form-check-input" type="radio" name="question4" id="$" value="1">
+                            <label class="form-check-label" for="$">$</label>
+                          </div>
+                          <div class="form-check">
+                            <input required class="form-check-input" type="radio" name="question4" id="$$" value="2">
+                            <label class="form-check-label" for="$$">$$</label>
+                          </div>
+                          <div class="form-check">
+                            <input required class="form-check-input" type="radio" name="question4" id="$$$" value="3">
+                            <label class="form-check-label" for="$$$">$$$</label>
+                          </div>
+                        </div>
+                    </fieldset>
+                    <button class="btn btn-primary btn-lg start-btn font-grow" id="start-button">Start Quiz</button>
+                    <button class="btn btn-primary btn-lg d-block ml-auto mt-5 d-none" id="next-button">Next Question</button>
+                    <button class="btn btn-primary btn-lg d-block ml-auto mt-5 d-none" id="get-results">
+                        <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true" id="btn-spinner"></span>
+                        <span>Get Results!</span>
+                    </button>
+                </form>
+
+                <ul class="product-list d-none" id="quiz-rec-list">
+                  <li>
+                      <div class="product">
+                          <div class="product-brand">
+                              
+                          </div>
+                          <div class="product-name">
+
+                          </div>
+                      </div>
+                      <div class="product-description">
+                          
+                      </div>
+                  </li>
+                  <li>
+                      <div class="product">
+                          <div class="product-brand">
+
+                          </div>
+                          <div class="product-name">
+
+                          </div>
+                      </div>
+                      <div class="product-description">
+
+                      </div>
+                  </li>
+                  <li>
+                      <div class="product">
+                          <div class="product-brand">
+
+                          </div>
+                          <div class="product-name">
+
+                          </div>
+                      </div>
+                      <div class="product-description">
+
+                      </div>
+                  </li>
+                  <li>
+                      <div class="product">
+                          <div class="product-brand">
+
+                          </div>
+                          <div class="product-name">
+
+                          </div>
+                      </div>
+                      <div class="product-description">
+
+                      </div>
+
+                  </li>
+                  <li>
+                      <div class="product">
+                          <div class="product-brand">
+
+                          </div>
+                          <div class="product-name">
+
+                          </div>
+                      </div>
+                      <div class="product-description">
+
+                      </div>
+
+                  </li>
+                </ul>
+
+
+            </main>
+
+            <footer>
+                <p>Copyright &copy; 2021 Jonah's Recommendations<br><a href="mailto:jonah@jonahsrecommendations.com">jonah@JonahsRecommendations.com</a></p>
+            </footer>
+        </div>
+        <!-- </div> -->
+    </body>
+</html>

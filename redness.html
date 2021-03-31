@@ -6,6 +6,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
         <link rel = "stylesheet" href = "Recommendations.css">
+        <script src="scripts/insert-products.js" type="module"></script>
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
         <title>Redness</title>
     </head>
 
@@ -37,7 +39,7 @@
                                     <li><a class="dropdown-item" href="acne.html">Acne</a></li>
                                     <li><a class="dropdown-item" href="dullness.html">Dullness</a></li>
                                     <li><a class="dropdown-item" href="wrinkles.html">Wrinkles/Fine Lines</a></li>
-                                    <li><a class="dropdown-item" href="sunprotection.html">Sun Protection</a></li>
+                                    <li><a class="dropdown-item" href="sun-protection.html">Sun Protection</a></li>
                                     <li><a class="dropdown-item" href="redness.html">Redness</a></li>
                                     <li><a class="dropdown-item" href="texture.html">Texture</a></li>
                                     
@@ -62,111 +64,7 @@
             </div>
 
             <main class="my-container">
-                <ul class="product-list">
-                    <li>
-                        <div class="product">
-                            <div class="product-brand">
-                                The Inkey List
-                            </div>
-                            <div class="product-name">
-                                Oat Cleansing Balm
-                            </div>
-                        </div>
-                        <div class="product-description">
-                            This luxurious cleansing balm gently dissolves make-up, while cleansing and nourishing the skin, making it ideal for sensitive skin types. Combining soothing colloidal oatmeal with ceramides to support the skin’s natural protective barrier, it's also formulated with oat kernel oil.
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product">
-                            <div class="product-brand">
-                                CeraVe
-                            </div>
-                            <div class="product-name">
-                                Foaming Face Cleanser
-                            </div>
-                        </div>
-                        <div class="product-description">
-                            Cleanses and removes oil without disrupting the protective skin barrier. Gentle foaming action refreshes and cleanses skin, including removing excess oils.
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product">
-                            <div class="product-brand">
-                                Caudalie
-                            </div>
-                            <div class="product-name">
-                                Grape Water
-                            </div>
-                        </div>
-                        <div class="product-description">
-                            An antioxidant-rich, vegan face mist that uses 100 percent grape water to deliver intense hydration, reduce sensitivity, and soothe.
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product">
-                            <div class="product-brand">
-                                Farmacy
-                            </div>
-                            <div class="product-name">
-                                Deep Sweep
-                            </div>
-                        </div>
-                        <div class="product-description">
-                            An alcohol-free, 2% BHA toner that gently exfoliates, deep cleans pores and controls oil without over-stripping skin. Ideal for combination, oily or acne-prone skin.
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product">
-                            <div class="product-brand">
-                                The Inkey List
-                            </div>
-                            <div class="product-name">
-                                Retinol Eye Cream
-                            </div>
-                        </div>
-                        <div class="product-description">
-                            A nighttime eye cream formulated to reduce the appearance of fine lines and wrinkles while giving extra support to your most fragile skin. Our Retinol Eye Cream has been formulated with slow release Vitamin A derivatives. These have been shown to support natural collagen production, while being gentle enough to use around the eyes.
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product">
-                            <div class="product-brand">
-                                The Inkey List
-                            </div>
-                            <div class="product-name">
-                                Succicinic Acid Acne Treatment
-                            </div>
-                        </div>
-                        <div class="product-description">
-                            A non-drying, gentle, and targeted acne treatment that clears acne spots fast while layering under makeup without flaking.
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product">
-                            <div class="product-brand">
-                                Clinique
-                            </div>
-                            <div class="product-name">
-                                Dramatically Different Moisturizing Lotion+
-                            </div>
-                        </div>
-                        <div class="product-description">
-                            A dermatologist-developed face moisturizer that softens the look of skin, smooths, and leaves skin visibly glowing.
-                        </div>
-                    </li>
-                    <li>
-                        <div class="product">
-                            <div class="product-brand">
-                                Dr. Jart+
-                            </div>
-                            <div class="product-name">
-                                Cicapair™ Tiger Grass Color Correcting Treatment SPF 30
-                            </div>
-                        </div>
-                        <div class="product-description">
-                            A green-to-beige color-correcting treatment that corrects redness and protects skin from UV damage and environmental aggressors.
-                        </div>
-                    </li>
+                <ul class="product-list" id="product-list">
                 </ul>
             
             </main>

@@ -1,0 +1,11 @@
+{
+    "name": "jonahs-recommendations",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "lite-server",
+        "build": "rm -rf build && mkdir build && cp *.html build && cp -R {styles,media,scripts} build"
+    },
+    "dependencies": {
+        "lite-server": "^2.6.1"
+    }
+}

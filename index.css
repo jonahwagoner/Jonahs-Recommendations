@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Yanone";
-  src: url(YanoneKaffeesatz-VariableFont_wght.ttf) format('truetype');
+  src: url(media/YanoneKaffeesatz-VariableFont_wght.ttf) format('truetype');
   }
 
   @keyframes animationimage{
@@ -347,7 +347,7 @@ body {
     background-image: linear-gradient(to right, rgba(238,233,227,.7),
     rgba(143,186,203,.7), rgba(237,196,210,.7),
      rgba(238,187,168,.7), rgba(52,212,174,.3)),
-     url(whitemarble.jpg);
+     url(media/whitemarble.jpg);
      /* background-image: url(whitemarble.jpg); */
     background-attachment: fixed;
 }

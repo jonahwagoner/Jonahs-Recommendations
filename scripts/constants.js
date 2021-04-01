@@ -444,7 +444,7 @@ const  PAULA_RED= {
 const  YTTP_CLEANSER= {
     brand: "Youth to the People",
     name:"Superfood Antioxidant Cleanser",
-    ingredients:"<p>Kale: This leafy veg is a must-have for more than just your morning juice. It's rich in skin-loving phytonutrients and vitamins C, E and K.</p><p>Spinach: A lightweight skin-soother that boasts a high natural moisture content and cooling properties.</p><p>Green Tea: An anti-inflammatory oil packed with essential fatty acids.</p>",
+    ingredients:"<p>Kale: This leafy veg is a must-have for more than just your morning juice. It's rich in skin-loving phytonutrients and vitamins C, E and K.</p><p>Spinach: A lightweight skin-soother that boasts a high natural moisture content and cooling properties.</p><p>Green Tea: An anti-inflammatory oil packed with essential fatty acids.</p>",
     image: '/some/path',
     type: "Cleanser",
     concern: "dullness"

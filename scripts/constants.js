@@ -93,7 +93,7 @@ const CEO= {
 const ORIGINS= {
     brand: "Origins",
     name:"GinZing Into the Glow Brightening Serum",
-    ingredients:"<p>Retexturizing Complex (Green Coffee Seed + AHA/BHA Blend) 5%: Supports cell turnover.</p><p>Vitamin C: Brightens skin’s appearance in one use.</p><p>Hyaluronic Acid: Plumps skin’s appearance with hydration.</p>",
+    ingredients:"<p>Retexturizing Complex (Green Coffee Seed + AHA/BHA Blend) 5%: Supports cell turnover.</p><p>Vitamin C: Brightens skin's appearance in one use.</p><p>Hyaluronic Acid: Plumps skin's appearance with hydration.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "dullness"
@@ -102,7 +102,7 @@ const ORIGINS= {
 const CERAVE_SERUM= {
     brand: "CeraVe",
     name:"Skin Renewing Retinol Serum",
-    ingredients:"<p>MVE Technology: This patented delivery system continually releases moisturizing ingredients.</p><p>Encapsulated Retinol: Helps smooth fine lines and wrinkles.</p><p>Ceramides: Helps maintain the skin’s natural barrier</p>",
+    ingredients:"<p>MVE Technology: This patented delivery system continually releases moisturizing ingredients.</p><p>Encapsulated Retinol: Helps smooth fine lines and wrinkles.</p><p>Ceramides: Helps maintain the skin's natural barrier</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "wrinkles"
@@ -175,7 +175,7 @@ const INKEY_EVE= {
 const OAT_BALM= {
     brand: "The Inkey List",
     name:"Oat Cleansing Balm",
-    ingredients:"<p>3% Oat Kernel Oil: Gently supports skin’s moisture levels, smooths and reduces blackheads.</p><p>1% Colloidal Oatmeal: Helps to reduce the appearance of redness and soothe irritation.</p>",
+    ingredients:"<p>3% Oat Kernel Oil: Gently supports skin's moisture levels, smooths and reduces blackheads.</p><p>1% Colloidal Oatmeal: Helps to reduce the appearance of redness and soothe irritation.</p>",
     image: '/some/path',
     type: "Cleanser"
 };
@@ -201,7 +201,7 @@ const TRANEXAMIC= {
 const TIGER_GEL= {
     brand: "Dr. Jart+",
     name:"Cicapair Tiger Grass Calming Gel Cream",
-    ingredients:"<p>Jartbiome: Helps strengthen, balance, and improve skin’s defenses against irritation and damage.</p><p>Centella Rx: Soothes and protects sensitive skin.</p><p>Cicabond: Helps care for and rebuild damaged skin resulting from external stressors.</p>",
+    ingredients:"<p>Jartbiome: Helps strengthen, balance, and improve skin's defenses against irritation and damage.</p><p>Centella Rx: Soothes and protects sensitive skin.</p><p>Cicabond: Helps care for and rebuild damaged skin resulting from external stressors.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "redness"
@@ -219,7 +219,7 @@ const ORDINARY_LACTIC= {
 const BANANA_BRIGHT= {
     brand: "Olehenriksen",
     name:"Banana Bright Vitamin C Serum",
-    ingredients:"<p>Vitamin C (Ethyl Ascorbic Acid) 15%: This powerful antioxidant helps brighten skin and visibly reduce the appearance of fine lines, wrinkles, dark spots, and discoloration, while defending against environmental stressors.</p><p>PHAs (Polyhydroxy Acids) 5%: An innovative alternative to AHAs that helps even skin tone and texture through chemical exfoliation, loosening and lifting dry, dead skin cells, and revealing newer, fresher skin beneath.</p><p>Hyaluronic Acid: Helps plump skin’s surface with hydration and reinforce skin’s moisture barrier.</p>",
+    ingredients:"<p>Vitamin C (Ethyl Ascorbic Acid) 15%: This powerful antioxidant helps brighten skin and visibly reduce the appearance of fine lines, wrinkles, dark spots, and discoloration, while defending against environmental stressors.</p><p>PHAs (Polyhydroxy Acids) 5%: An innovative alternative to AHAs that helps even skin tone and texture through chemical exfoliation, loosening and lifting dry, dead skin cells, and revealing newer, fresher skin beneath.</p><p>Hyaluronic Acid: Helps plump skin's surface with hydration and reinforce skin's moisture barrier.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "dullness"
@@ -264,7 +264,7 @@ const VERSED_BRIGHTENING= {
 const SUPERBERRY= {
     brand: "Youth to the People",
     name:"Superberry Hydrate + Glow Dream Mask with Vitamin C",
-    ingredients:"<p>Vitamin C (THD Ascorbate): The latest clinically-proven form of stable, potent vitamin C works to firm and brighten the look of skin.</p><p>Squalane and Hyaluronic Acid: Mimic your skin’s natural oils to boost skin hydration without the risk of clogged pores.</p><p>Proprietary Superberry Blend: Antioxidant-rich, rare superberries hydrate and help combat free radicals.</p>",
+    ingredients:"<p>Vitamin C (THD Ascorbate): The latest clinically-proven form of stable, potent vitamin C works to firm and brighten the look of skin.</p><p>Squalane and Hyaluronic Acid: Mimic your skin's natural oils to boost skin hydration without the risk of clogged pores.</p><p>Proprietary Superberry Blend: Antioxidant-rich, rare superberries hydrate and help combat free radicals.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "hydration"
@@ -273,7 +273,7 @@ const SUPERBERRY= {
 const PLUM= {
     brand: "Glow Recipe",
     name:"Plum Plump Hyaluronic Acid Serum",
-    ingredients:"<p>Next-Gen Hyaluronic Acid: A powerful blend of multi-weight hyaluronic acids (ultra-low, low, medium, high, and ultra-high molecular weights) that hydrate layers of skin for plump-, bouncy-looking skin.</p><p>Plum: Three antioxidant-rich plums (kakadu, illawarra, and burdekin) hydrate, nourish, and rejuvenate skin’s appearance quickly and over time while working with hyaluronic acid for intense, juicy hydration.</p><p>Vegan Collagen and Silk Proteins: Potent, plant-based, powerhouse ingredients that support a healthy-looking skin barrier by guarding against free radicals and hydrating skin.</p>",
+    ingredients:"<p>Next-Gen Hyaluronic Acid: A powerful blend of multi-weight hyaluronic acids (ultra-low, low, medium, high, and ultra-high molecular weights) that hydrate layers of skin for plump-, bouncy-looking skin.</p><p>Plum: Three antioxidant-rich plums (kakadu, illawarra, and burdekin) hydrate, nourish, and rejuvenate skin's appearance quickly and over time while working with hyaluronic acid for intense, juicy hydration.</p><p>Vegan Collagen and Silk Proteins: Potent, plant-based, powerhouse ingredients that support a healthy-looking skin barrier by guarding against free radicals and hydrating skin.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "hydration"
@@ -291,7 +291,7 @@ const HONEYMOON= {
 const DOCTORS_VISIT= {
     brand: "Versed",
     name:"Doctor's Visit",
-    ingredients:"<p>Lactic Acid: Gently lifts off dead skin calls to reveal newer, fresher, smoother skin.</p><p>Glycerin: A natural moisturizer that’s also in our skin.</p><p>Salicylic Acid: Helps unclog pores and gently exfoliate, whilst calming inflames skin.</p>",
+    ingredients:"<p>Lactic Acid: Gently lifts off dead skin calls to reveal newer, fresher, smoother skin.</p><p>Glycerin: A natural moisturizer that's also in our skin.</p><p>Salicylic Acid: Helps unclog pores and gently exfoliate, whilst calming inflames skin.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "texture"
@@ -318,7 +318,7 @@ const PINEAPPLE= {
 const CERAVE_RETINOL= {
     brand: "CeraVe",
     name:"Resurfacing Retinol Serum",
-    ingredients:"<p>MVE Technology: This patented delivery system continually releases moisturizing ingredients.</p><p>Encapsulated Retinol: Helps smooth fine lines and wrinkles.</p><p>Ceramides: Helps maintain the skin’s natural barrier.</p>",
+    ingredients:"<p>MVE Technology: This patented delivery system continually releases moisturizing ingredients.</p><p>Encapsulated Retinol: Helps smooth fine lines and wrinkles.</p><p>Ceramides: Helps maintain the skin's natural barrier.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "wrinkles"
@@ -399,7 +399,7 @@ const SNOW_MUSH = {
 const  LAMER= {
     brand: " La Mer",
     name:"Crème de la Mer Moisturizer",
-    ingredients:"<p>Miracle Broth™: Helps create the perfect environment to calm the look of redness and other signs of irritation.</p><p>Lime Tea Concentrate: Contains antioxidants to protect skin from irritation due to environmental stressors.</p><p>Giant Sea Kelp: Support’s skin’s natural healing process.</p>",
+    ingredients:"<p>Miracle Broth™: Helps create the perfect environment to calm the look of redness and other signs of irritation.</p><p>Lime Tea Concentrate: Contains antioxidants to protect skin from irritation due to environmental stressors.</p><p>Giant Sea Kelp: Support's skin's natural healing process.</p>",
     image: '/some/path',
     type: "Moisturizer",
     concern: "redness"
@@ -453,7 +453,7 @@ const  YTTP_CLEANSER= {
 const  INKEY_FULVIC= {
     brand: "The Inkey List",
     name:"Fulvic Acid Brightening Cleanser",
-    ingredients:"<p>0.5% Nordic Beauty Peat: Naturally high in Fulvic Acid, it gently exfoliates for brighter and smoother skin. Fulvic Acid is proven to act as a strong antioxidant with anti-inflammatory properties for a healthy complexion.</p><p>1.5% Kakadu Plum Extract: Rich in Vitamin C, containing 50x more than an orange, it helps to instantly boost skin’s radiance and luminosity.</p><p>1% Liquorice Root Extract: A potent antioxidant with soothing benefits, it helps to reduce hyperpigmentation and brightens overall skin tone.</p>",
+    ingredients:"<p>0.5% Nordic Beauty Peat: Naturally high in Fulvic Acid, it gently exfoliates for brighter and smoother skin. Fulvic Acid is proven to act as a strong antioxidant with anti-inflammatory properties for a healthy complexion.</p><p>1.5% Kakadu Plum Extract: Rich in Vitamin C, containing 50x more than an orange, it helps to instantly boost skin's radiance and luminosity.</p><p>1% Liquorice Root Extract: A potent antioxidant with soothing benefits, it helps to reduce hyperpigmentation and brightens overall skin tone.</p>",
     image: '/some/path',
     type: "Cleanser",
     concern: "dullness"
@@ -480,7 +480,7 @@ const RENEWING_CLEANSER = {
 const FOAMING_WASH = {
     brand: "CeraVe",
     name:"Foaming Face Wash",
-    ingredients:"<p>Ceramides: Helps restore and maintain the skin’s natural barrier.</p><p>Hyaluronic Acid: Helps retain skin’s natural moisture.</p><p>Niacinamide: Helps calm the skin.</p>",
+    ingredients:"<p>Ceramides: Helps restore and maintain the skin's natural barrier.</p><p>Hyaluronic Acid: Helps retain skin's natural moisture.</p><p>Niacinamide: Helps calm the skin.</p>",
     image: '/some/path',
     type: "Cleanser"
 };

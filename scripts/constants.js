@@ -533,7 +533,7 @@ const INNISFREE= {
 const SWEET_BIOME = {
     brand: "Drunk Elephant",
     name:"Sweet Biome Fermented Sake Hydrating Spray",
-    ingredients:"<p>Galactomyces Ferment Filtrate (Fermented Sake): Defends against free-radical damage and supports a strong skin barrier.</p><p>Sodium PCA: An electrolyte with antioxidant benefits that maintains skin hydration levels.</p><p>Saccharomyces/Xylinum/Black Tea Ferment (Kombucha): A powerful barrier restorative with antioxidant benefits.</p>",
+    ingredients:"<p>Galactomyces Ferment Filtrate (Fermented Sake): Defends against free-radical damage and supports a strong skin barrier.</p><p>Sodium PCA: An electrolyte with antioxidant benefits that maintains skin hydration levels.</p><p>Saccharomyces / Xylinum / Black Tea Ferment (Kombucha): A powerful barrier restorative with antioxidant benefits.</p>",
     image: '/some/path',
     type: "Toner/Essence",
     concern: "hydration"

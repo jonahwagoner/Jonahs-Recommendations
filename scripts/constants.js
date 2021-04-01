@@ -111,7 +111,7 @@ const CERAVE_SERUM= {
 const NATURIUM= {
     brand: "Naturium",
     name:"Retinol Complex Cream",
-    ingredients:"<p>Bakuchiol: A plant extract that is, though different in chemical structure, acts similar to retinoids. Studies confirm that it can help reduce fine lines and wrinkles, improve skin tone, reduce clogged pores and blemishes, and reduce inflammation.</p><p>Tocopherol: Pure form of vitamin E. Can help moisturise and protect the skin from free radicals. Often used to help stabilise other ingredients or the formula itself.</p>",
+    ingredients:"<p>Bakuchiol: A plant extract that is, though different in chemical structure, acts similar to retinoids. Studies confirm that it can help reduce fine lines and wrinkles, improve skin tone, reduce clogged pores and blemishes, and reduce inflammation.</p><p>Tocopherol: Pure form of vitamin E. Can help moisturize and protect the skin from free radicals. Often used to help stabilise other ingredients or the formula itself.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "wrinkles"
@@ -237,7 +237,7 @@ const PAULA_BOOSTE= {
 const EGF= {
     brand: "The Inkey List",
     name:"15% Vitamin C and EGF Brightening Serum",
-    ingredients:"<p>15% Ascorbyl Glucoside (Vitamin C): A potent antioxidant that helps brighten the look of skin and protect from environmental stressors.</p><p>1% Epitensive™: A plant-derived Epidermal Growth Factor system to support natural elasticity and skin health.</p>",
+    ingredients:"<p>15% Ascorbyl Glucoside (Vitamin C): A potent antioxidant that helps brighten the look of skin and protect from environmental stressors.</p><p>1% Epitensive: A plant-derived Epidermal Growth Factor system to support natural elasticity and skin health.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "dullness"
@@ -255,7 +255,7 @@ const EGF= {
 const VERSED_BRIGHTENING= {
     brand: "Versed",
     name:"Brightening Serum",
-    ingredients:"<p>Vitamin C: Rich in antioxidants, it shields the skin from free radicals.</p><p>Licorice Root Extract: Targets dark spots, hyperpigmentation and sun damage.</p>",
+    ingredients:"<p>Vitamin C: Rich in antioxidants, it shields the skin from free radicals.</p><p>Licorice Root Extract: Targets dark spots, hyperpigmentation and sun damage.</p>",
     image: '/some/path',
     type: "Treatment",
     concern: "dullness"
@@ -426,7 +426,7 @@ const  MISSHA= {
 const  SK_II= {
     brand: "SK-II",
     name:"Facial Treatment Essence",
-    ingredients:"<p>PITERA™: A bio-ingredient derived from yeast fermentation that resembles your skin's Natural Moisturizing Factors; contains over 50 micro-nutrients like vitamins, minerals, amino acids, and organic acids to condition skin's natural functions.</p>",
+    ingredients:"<p>PITERA: A bio-ingredient derived from yeast fermentation that resembles your skin's Natural Moisturizing Factors; contains over 50 micro-nutrients like vitamins, minerals, amino acids, and organic acids to condition skin's natural functions.</p>",
     image: '/some/path',
     type: "Toner/Essence",
     concern: "hydration"

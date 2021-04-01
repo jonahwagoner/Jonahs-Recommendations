@@ -123,7 +123,17 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    text-decoration: none;
+    color: white;
+	-webkit-text-stroke: .25px #F8F8F8;
+	text-shadow: 0px .25px 1px #585858;
+}
 
+
+.homeglossary:hover {
+    color: white;
+	-webkit-text-stroke: .25px #F8F8F8;
+	text-shadow: 0px .25px 1px #585858;
 }
 
 .homeglossary h2{
@@ -131,12 +141,12 @@
     font-size: 48px;
     vertical-align: middle;
 }
-.homeglossary a{
+/* .homeglossary a{
     text-decoration: none;
     color: white;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 3px #585858;
-}
+	-webkit-text-stroke: .25px #F8F8F8;
+	text-shadow: 0px .25px 1px #585858;
+} */
 
 
 nav.navbar {
@@ -274,8 +284,8 @@ nav.navbar {
     font-size: 48px;
     text-decoration: none;
     color: white;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 3px #585858;
+	-webkit-text-stroke: .25px #F8F8F8;
+	text-shadow: 0px .25px 1px #585858;
     position: absolute;
     /* top: 42%; */
     margin: 0;
@@ -317,8 +327,8 @@ nav.navbar {
 
 .hero .regularhead {
 	color: white;
-	-webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 3px #585858;
+	-webkit-text-stroke: .25px #F8F8F8;
+	text-shadow: 0px .25px 1px #585858;
     position: absolute;
     width: 100%;
     margin: 0;
@@ -384,7 +394,7 @@ body {
      /* background-image: linear-gradient(to right, rgba(52,212,174,.5), rgba(238,187,168,.5), rgba(237,196,210,.5),
      rgba(143,186,203,.5),  rgba(238,233,227,.5)); */
     color: white;
-    height: 500px;
+    height: auto;
     list-style-type: none;
     /* background-color: #e8e9eb; */
     margin-top: 10px;
@@ -423,12 +433,13 @@ body {
     width: 50%;
     margin: auto;
     padding: 2px 20px 2px 20px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.1;
 }
 
 .product-description h3 {
     text-decoration: underline;
+    margin-top: 0.5rem;
 }
 
 
@@ -439,8 +450,8 @@ body {
     margin-bottom: 80px;
     text-decoration: none;
     /* color: white;
-    -webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 3px #585858;
+	-webkit-text-stroke: .25px #F8F8F8;
+	text-shadow: 0px .25px 1px #585858;
     font-size: 130px; */
   }
   .jumbotron video {
@@ -461,8 +472,8 @@ body {
   .display-vid{
     font-size: 48px;
     color: white;
-    -webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 3px #585858;
+	-webkit-text-stroke: .25px #F8F8F8;
+	text-shadow: 0px .25px 1px #585858;
   }
 
   .jumbotron:hover {
@@ -572,8 +583,8 @@ thead tr:first-child {
 .table-recs thead {
     font-size: 52px;
     color: white;
-    -webkit-text-stroke: 1px #F8F8F8;
-	text-shadow: 0px 1px 3px #585858;
+	-webkit-text-stroke: .25px #F8F8F8;
+	text-shadow: 0px .25px 1px #585858;
 }
 
 .table-recs thead tr:nth-child(2) {
@@ -603,6 +614,16 @@ thead tr:first-child {
 } */
 
   @media screen and (min-width: 600px) {
+    .homeglossary, 
+    .homeglossary:hover,
+    .rec-box .regularhead,
+    .hero .regularhead,
+    .display-vid,
+    .text-white-shadow {
+        -webkit-text-stroke: 1 #F8F8F8;
+        text-shadow: 0px 1px 3px #585858;
+    }
+    
     .rec-box {
         grid-template-columns: 1fr 1fr;
     }
@@ -647,9 +668,9 @@ thead tr:first-child {
         font-size: 84px;
     }
 
-    .product-description {
-        font-size: 18px;
-    }
+    /* .product-description {
+        font-size: 22px;
+    } */
 
     .product-description p {
         margin-bottom: 1rem;
@@ -657,7 +678,7 @@ thead tr:first-child {
     }
 
     .product-list li {
-        height: 420px;
+        /* height: 420px; */
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
     }
@@ -673,6 +694,10 @@ thead tr:first-child {
     /* .personalized-regimen span {
         font-size: 46px;
     } */
+
+    .product-list li {
+        height: 540px;
+    }
 
   }
 
@@ -706,12 +731,12 @@ thead tr:first-child {
         font-size: 130px;
     }
 
-    .product-description {
-        font-size: 20px;
-    }
+    /* .product-description {
+        font-size: 24px;
+    } */
 
     .product-list li {
-        height: 340px;
+        height: 350px;
     }
 /* 
     .personalized-regimen {
@@ -745,13 +770,13 @@ thead tr:first-child {
 
 /* FOOTER STYLES */
 
-* {
+/* * {
     box-sizing: border-box;
    }
    *:before,
    *:after {
     box-sizing: border-box;
-   }
+   } */
 
 
 html, body {
@@ -785,5 +810,9 @@ footer a {
 
 footer a:hover {
     color: rgba(0,0,0,.7);
+}
+
+footer p {
+    margin-top: 1rem;
 }
 

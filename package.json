@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "scripts": {
         "start": "lite-server",
-        "build": "rm -rf build && mkdir build && cp {*.html,*.css} build && cp -R {media,scripts} build && for i in *.html; do sed -i \"\" 's/index.html\"/\\/\"/g' build/\"$i\" && sed -i \"\" 's/.html\"/\"/g' build/\"$i\"; done\n",
+        "build": "rm -rf build && mkdir build && cp {*.html,*.css} build && cp -R {media,scripts} build && for i in *.html; do sed -i 's/index.html\"/\\/\"/g' build/\"$i\" && sed -i 's/.html\"/\"/g' build/\"$i\"; done\n",
         "build-2": "rm -rf build && mkdir build && cp {*.html,*.css} build && cp -R {media,scripts} build "
     },
     "dependencies": {

@@ -789,7 +789,7 @@ html, body {
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 101px;
+    padding-bottom: 127px;
 }
 
 footer {
@@ -812,7 +812,8 @@ footer a:hover {
     color: rgba(0,0,0,.7);
 }
 
-footer p {
+footer p:first-child {
     margin-top: 1rem;
+    margin-bottom: 0;
 }
 

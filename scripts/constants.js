@@ -398,8 +398,8 @@ const SNOW_MUSH = {
 
 const  LAMER= {
     brand: " La Mer",
-    name:"Crème de la Mer Moisturizer",
-    ingredients:"<p>Miracle Broth™: Helps create the perfect environment to calm the look of redness and other signs of irritation.</p><p>Lime Tea Concentrate: Contains antioxidants to protect skin from irritation due to environmental stressors.</p><p>Giant Sea Kelp: Support's skin's natural healing process.</p>",
+    name:"Creme de la Mer Moisturizer",
+    ingredients:"<p>Miracle Broth: Helps create the perfect environment to calm the look of redness and other signs of irritation.</p><p>Lime Tea Concentrate: Contains antioxidants to protect skin from irritation due to environmental stressors.</p><p>Giant Sea Kelp: Support's skin's natural healing process.</p>",
     image: '/some/path',
     type: "Moisturizer",
     concern: "redness"

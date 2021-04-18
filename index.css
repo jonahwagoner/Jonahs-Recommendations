@@ -520,10 +520,13 @@ body {
   }
 
   .btn-primary:hover {
-      background-color: #585858;
-      border: 1px solid #585858;
+      background-color: #34d4ae;
+      border: #34d4ae;
+      /* background-color: #585858;
+      border: 1px solid #585858; */
 
   }
+ 
 
   .quiz-form .form-check-input:checked {
     background-color: #34d4ae;
@@ -703,6 +706,10 @@ thead tr:first-child {
         height: 540px;
     }
 
+    .btn-primary:hover {
+        background-color: #585858;
+        border: 1px solid #585858;
+    }
 
   }
 
@@ -752,6 +759,12 @@ thead tr:first-child {
         font-size: 110px;
     } */
 
+    .btn-primary:hover {
+        background-color: #585858;
+        border: 1px solid #585858;
+    }
+
+
   }
 
   @media screen and (min-width: 1252px) {
@@ -766,6 +779,12 @@ thead tr:first-child {
         animation-duration: .5s;
         animation-fill-mode: forwards;
     }
+
+    .btn-primary:hover {
+        background-color: #585858;
+        border: 1px solid #585858;
+    }
+
   }
 
   main {

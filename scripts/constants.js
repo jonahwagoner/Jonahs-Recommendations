@@ -628,7 +628,7 @@ const DEEP_SWEEP = {
 
 const CICAPAIR_COLOR_CORRECTOR = {
     brand: 'Dr. Jart+',
-    name: 'Cicapair™ Tiger Grass Color Correcting Treatment SPF 30',
+    name: 'Cicapair Tiger Grass Color Correcting Treatment SPF 30',
     ingredients: "<p>Centella Asiatica Complex: Protects from environmental stressors causing sensitized skin.</p><p>Herbs Complex: Supports skin for a vibrant appearance.</p><p>Minerals Solution and Panthenol: Supports skin's moisture barrier.</p>",
     image: '/some/path',
     link: '<a target="_blank" href="https://www.amazon.com/gp/product/B07DR5816K/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07DR5816K&linkCode=as2&tag=jonahwagoner-20&linkId=1cc76d871d8b4880809f4f8e829beecb">Buy Here</a>',

@@ -505,8 +505,8 @@ body {
 
   .text-white-shadow {
     color: white;
-    -webkit-text-stroke: 1px #F8F8F8;
-    text-shadow: 0px 1px 3px #585858;
+    -webkit-text-stroke: .25px #F8F8F8;
+    text-shadow: 0px .25px 1px #585858;
   }
 
   .ml-auto {
@@ -603,6 +603,10 @@ thead tr:first-child {
     margin-bottom: 3rem;
 }
 
+.product-link a{
+    color:#585858;
+}
+
 /* table tr {
     border: 1px solid #34d4ae;
 } */
@@ -620,7 +624,7 @@ thead tr:first-child {
     .hero .regularhead,
     .display-vid,
     .text-white-shadow {
-        -webkit-text-stroke: 1 #F8F8F8;
+        -webkit-text-stroke: 1px #F8F8F8;
         text-shadow: 0px 1px 3px #585858;
     }
     
@@ -698,6 +702,7 @@ thead tr:first-child {
     .product-list li {
         height: 540px;
     }
+
 
   }
 

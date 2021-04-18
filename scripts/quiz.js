@@ -78,9 +78,11 @@ function getResults(event) {
     for (let i = 0; i < listItems.length; i++) {
         const productBrand = listItems[i].children[0].children[0];
         const productName = listItems[i].children[0].children[1];
+        const productLink = listItems[i].children[0].children[2];
         const productDescription = listItems[i].children[1];
         productBrand.innerHTML = products[i].brand;
         productName.innerHTML = products[i].name;
+        productLink.innerHTML = products[i].link;
         productDescription.innerHTML += products[i].ingredients
     }
 

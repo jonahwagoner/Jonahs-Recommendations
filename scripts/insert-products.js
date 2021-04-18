@@ -8,6 +8,7 @@ function insertProductHtml() {
         <div class="product">
             <div class="product-brand">${product.brand}</div>
             <div class="product-name"> ${product.name}</div>
+            <div class="product-link"> ${product.link}</div>
         </div>
         <div class="product-description">
             <h3>Key Ingredients</h3>

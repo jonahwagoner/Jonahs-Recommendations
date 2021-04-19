@@ -113,7 +113,7 @@ const CERAVE_SERUM= {
     name:"Skin Renewing Retinol Serum",
     ingredients:"<p>MVE Technology: This patented delivery system continually releases moisturizing ingredients.</p><p>Encapsulated Retinol: Helps smooth fine lines and wrinkles.</p><p>Ceramides: Helps maintain the skin's natural barrier</p>",
     image: '/some/path',
-    link: '<a target="_blank" href="https://www.amazon.com/gp/product/B07XJ7XWLW/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07XJ7XWLW&linkCode=as2&tag=jonahwagoner-20&linkId=54a297e6322373d69537b812daa36621">Buy Here</a',
+    link: '<a target="_blank" href="https://www.amazon.com/gp/product/B07XJ7XWLW/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07XJ7XWLW&linkCode=as2&tag=jonahwagoner-20&linkId=54a297e6322373d69537b812daa36621">Buy Here</a>',
     type: "Treatment",
     concern: "wrinkles"
 };
